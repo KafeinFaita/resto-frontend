@@ -9,7 +9,7 @@ const links = [
 ]
 const Nav = () => {
     return (
-        <nav className="py-5 px-5 flex justify-between">
+        <nav className="py-5 px-5 flex justify-between fixed bg-white w-full">
             <div className="text-2xl font-bold">My Restaurant</div>
 
             <div>
