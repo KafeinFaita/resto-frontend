@@ -1,6 +1,7 @@
 import Header from "../components/home/Header";
 import Button from "../components/Button";
-import img1 from "../assets/header.jpg"
+import img1 from "../assets/header.jpg";
+import Bg from "../assets/bg.jpg";
 
 const highlights = [
     { category: "CHEF RECOMMENDED", title: "STEAK SANDWICH ON CIABATTA BREAD", description: "100% Irish steak fried with mushrooms and onions on a bed of garlic ciabatta bread and side salad also with hand cut chips." }, 
@@ -24,7 +25,10 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="bg-slate-500 flex justify-center items-center">
+            <div 
+                className="bg-slate-500 flex justify-center items-center"
+                style={{backgroundImage: `url(${Bg})`}}
+            >
                 <div className="bg-white max-w-screen-md p-20 flex flex-col justify-center items-center my-40">
                     <h2 className="text-3xl">Highlights</h2>
                     <p className="py-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, minima!</p>
